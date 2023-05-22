@@ -36,7 +36,7 @@ function Cards() {
             setPrev(-1)
             setSelected(0)
             setMoves(moves + 1)
-            setPrev(-1)
+            setMoves(moves + 1)
             if(items.filter(item => item.stat === "correct").length === items.length){
                 setWin(true)
             }
